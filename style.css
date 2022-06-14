@@ -42,7 +42,7 @@ border: solid rgb(72, 72, 72);
 }
 
 
-div.boton-enviar input{
+div.boton-enviar button  {
     font-size: 20px;
     width: 240px;
     border-radius: 10px; 
@@ -53,15 +53,38 @@ div.boton-enviar input{
 
 }
 
-div.boton-enviar input:hover {
+div.boton-enviar button:active {
     background-color: aliceblue;
     color: rgba(94, 88, 201, 0.923);
 
+
 }
 
-footer,a {
+a{
+    color: white;
+    text-decoration: none;
+}
+a:active {
+
+    color: rgba(94, 88, 201, 0.923);
+    text-decoration: none;
+    
+
+}
+
+
+
+footer {
+    margin-top: 10px;
+    background-color:rgba(94, 88, 201, 0.923);
+    color: white;
+    text-align: center;
+}
+
+#enlace {
     margin-top: 220px;
     color: white;
     background-color:rgba(94, 88, 201, 0.923);
     text-align: center;
+    text-decoration: underline
 }
